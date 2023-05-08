@@ -18,7 +18,7 @@ app.use("/user", router);
 let port = process.env.PORT;
 
 if(port == null || port == "" ){
-    port = 5000;
+    port = 8000;
 }
 
 /** start a server only if there is a valid DB connection */
